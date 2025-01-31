@@ -1,6 +1,6 @@
 # Data Science Portfolio 1: Causal Inference & Experimentation
 
-## **Overview**
+## **Overview/ Design Approach**
 This portfolio showcases how I apply my experience in behavioral policy research and causal inference to address challenges in the tech industry, including user growth, advertising, marketplaces, pricing, and policy impact. Beyond technical skills in coding and modeling, I aim to demonstrate my approach to framing research questions, designing studies, selecting indicators, choosing models, and presenting results across various scenarios.
 
 It focuses on understanding causal relationships, designing and analyzing experiments, and measuring impact. This portfolio is tailored for roles that demand statistical rigor and expertise in causal inference techniques.
@@ -8,13 +8,21 @@ It focuses on understanding causal relationships, designing and analyzing experi
 In general, here are the considerations I ask when choosing causal inference designs:
 - What is the timeline to seeing long-term impact and to decision-making?
 - How does this experiment fit into product/ feature launch/ other cross-functional goals' timeline?
-- What is the unit of treatment? Individual user is usual for Growth and Digital Ads teams for most products where aim is engagement and/or ROI. Geo-based units is usual for Marketplace where the aim is supply-demand balancing. For Policy and Trust & Safety, the unit of treatment is often larger to minucipalities, states, countries, region. The unit of treatment is one of the main factors that will help answer the folowing questions to determine the causal inference design to use.
+- How much control do we have on how the treatment (product/ feature/ campaign) will be launched?
+- What is the unit of treatment? Individual user is usual for Growth and Digital Ads teams for most products where aim is engagement and/or ROI. Geo-based units is usual for Marketplace where the aim is supply-demand balancing. For Policy and Trust & Safety, the unit of treatment is often larger to minucipalities, states, countries, region.
+- What is the scale of the experiment (how much time, monetary and engineering resources do we have?)? Or is this a natural experiment (i.e., external policies)?
+
+The unit of treatment (product/ feature/ campaign) administration and control over treatment administration is one of the main factors that will help answer the folowing questions to determine the causal inference design to use. I am also assuming we have longtitudinal/ time series data. 
   
-- What is the scale of the experiment (how much time, monetary and engineering resources do we have?)?
-- Is randomization feasible within this timeframe? (-> RCT)
+- (If not natural experiment) Is randomization feasible within our timeframe and context? (-> RCT)
 - If not possible, can we find a control group? (-> DiD)
-- Or is there a somewhat "arbitraty" cuttoff or threshold in treatment assignment (i.e., income, geo-administrative boundaries, cell-tower)?(->RDD)
+- If there is treatment selection bias, do we have pre-treatment observational data and enough observations that we can match on? (-> Propensity Score Matching or Weighting)
+- Or is there a somewhat "arbitraty" cutoff or threshold in treatment assignment (i.e., income, geo-administrative boundaries, cell-tower)?(->RDD, but interpret the results accordingly. May not be widely generalizable.)
 - If not (treatment assignment is inherently connected to outcome), is there a confounding variable we can measure? (-> IV)
+
+Which all the above approaches, I can find the 
+
+- Should we apply Uplift modeling? 
 
 ## **Projects**
 
