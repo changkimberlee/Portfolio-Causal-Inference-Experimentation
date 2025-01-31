@@ -3,10 +3,10 @@
 ## **Overview/ Design Approach**
 This portfolio showcases how I apply my experience in behavioral policy research and causal inference to address challenges in the tech industry, including user growth, advertising, marketplaces, pricing, and policy impact. Beyond technical skills in coding and modeling, I aim to demonstrate my approach to framing research questions, designing studies, selecting indicators, choosing models, and presenting results across various scenarios.
 
-It focuses on understanding causal relationships, designing and analyzing experiments, and measuring impact. This portfolio is tailored for roles that demand statistical rigor and expertise in causal inference techniques.
+Here I focuse on understanding causal relationships, designing and analyzing experiments, and measuring impact. This portfolio is tailored for roles that demand statistical rigor and expertise in causal inference techniques.
 
-In general, here are the considerations I ask when choosing causal inference designs:
-- What is the timeline to seeing long-term impact and to decision-making?
+Here are some questions I ask when choosing causal inference designs:
+- What is the timeline to seeing short-, mid- and long-term impact and to decision-making? (In my background in international development, we call this Theory of Change. We spend alot of time with stakeholders to talk through the (user) behavior and (business) impact intended to change, and develop the timeline and indicators accordingly. See below Indicator Selection section for more.)
 - How does this experiment fit into product/ feature launch/ other cross-functional goals' timeline?
 - How much control do we have on how the treatment (product/ feature/ campaign) will be launched?
 - What is the unit of treatment? Individual user is usual for Growth and Digital Ads teams for most products where aim is engagement and/or ROI. Geo-based units is usual for Marketplace where the aim is supply-demand balancing. For Policy and Trust & Safety, the unit of treatment is often larger to minucipalities, states, countries, region.
@@ -16,7 +16,7 @@ The unit of treatment (product/ feature/ campaign) administration and control ov
   
 - (If not natural experiment) Is randomization feasible within our timeframe and context? (-> RCT)
 - If not possible, can we find a control group? (-> DiD)
-- If there is treatment selection bias, do we have pre-treatment observational data and enough observations that we can match on? (-> Propensity Score Matching or Weighting)
+- If there is still treatment selection bias, do we have pre-treatment observational data and enough observations that we can match on? (-> Propensity Score Matching or Weighting)
 - Or is there a somewhat "arbitraty" cutoff or threshold in treatment assignment (i.e., income, geo-administrative boundaries, cell-tower)?(->RDD, but interpret the results accordingly. May not be widely generalizable.)
 - If not (treatment assignment is inherently connected to outcome), is there a confounding variable we can measure? (-> IV)
 
