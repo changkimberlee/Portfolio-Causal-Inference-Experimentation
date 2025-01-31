@@ -10,11 +10,11 @@ Here are some questions I ask when choosing causal inference designs:
 
   *In my background in international development, we call this Theory of Change. We spend alot of time with stakeholders to talk through the (user) behavior and (business) impact intended to change, and develop the timeline and indicators accordingly. See below Indicator Selection section for more.*
 - How does this experiment fit into product/ feature launch/ other cross-functional goals' timeline?
-
-  *This process needs consultations/ co-creation with cross-functional teams- Soft skills and experience. Again in international development, we always worked with a complicated network of stakeholders such as donors, NGOs, and small to large corporations. My consulting experience and communication skills I've developed through a wide variety of projects enabled me to come up with research design and timeline that matched vary different stateholders' short and long-term needs.*
 - How much control do we have on how the treatment (product/ feature/ campaign) will be launched?
 - What is the unit of treatment? Individual user is usual for Growth and Digital Ads teams for most products where aim is engagement and/or ROI. Geo-based units is usual for Marketplace where the aim is supply-demand balancing. For Policy and Trust & Safety, the unit of treatment is often larger to minicipalities, states, countries, region (Whether the policy is external or internal).
 - What is the scale of the experiment (how much time, monetary and engineering resources do we have?)? Or is this a natural experiment (i.e., external policies)?
+  
+  *Answering the above questions requires consultations/ co-creation with cross-functional teams- Soft skills and experience. Again in international development, we always worked with a complicated network of stakeholders such as donors, NGOs, and small to large corporations. My consulting experience and communication skills I've developed through a wide variety of projects enabled me to come up with research design and timeline that matched vary different stateholders' short and long-term needs.*
 
 The unit of treatment (product/ feature/ campaign) administration and control over treatment administration is one of the main factors that will help answer the following questions to determine the causal inference design to use. I am also assuming we have longtitudinal/ time series data. 
   
