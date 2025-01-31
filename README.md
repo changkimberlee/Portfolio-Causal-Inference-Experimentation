@@ -9,7 +9,9 @@ This portfolio focuses on understanding causal relationships, designing and anal
 
 ### **1️⃣ User Growth & Engagement Optimization**
 **Problem:** Companies struggle to measure the true impact of user engagement strategies, leading to ineffective interventions.
+
 **Objective:** Measure the effectiveness of user engagement campaigns.
+
 **Impact:** Improves retention and engagement by identifying strategies that work best for different user segments.
 - **Techniques:** Uplift modeling, A/B Testing, Difference-in-Differences (DiD), Instrumental Variables (IV)
 - **Dataset:** [Online Retail Dataset (UCI)](https://archive.ics.uci.edu/ml/datasets/online+retail)
