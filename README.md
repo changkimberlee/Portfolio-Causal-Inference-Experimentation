@@ -24,6 +24,11 @@ The unit of treatment (product/ feature/ campaign) administration and control ov
 - If there is still treatment selection bias, do we have pre-treatment observational data and enough observations that we can match on? (-> Propensity Score Matching or Weighting)
 - Or is there a somewhat "arbitraty" cutoff or threshold in treatment assignment (i.e., income, geo-administrative boundaries, cell-tower)?(-> RDD, but interpret the results accordingly. May not be widely generalizable.)
 - If not (treatment assignment is inherently connected to outcome), is there a confounding variable we can measure? (-> IV)
+- 
+
+n
+clusters
+covariates related to putcome or treatment (varian reduction and bias correction)
 
 With all the above approaches, we can calculate:
 - the Average Treatment Effect (the overall effect of the treatment across everyone in the control group) *"Did the new algorithm increase user engagement (CTR or bookings) overall?" "Did the new checkout flow increase purchases overall?"*
@@ -41,25 +46,27 @@ With most of the above approaches, I can use Uplift Modeling to predict incremen
 
 ## **Projects**
 
-### **1️⃣ User Growth & Engagement Optimization**
+### **1️⃣ User Growth & Engagement Optimization** (aquisition and retensio )
 **Problem:** Companies today face significant challenges in accurately measuring the impact of user engagement strategies. Without clear insights into what truly drives user growth, businesses often implement ineffective or even counterproductive engagement tactics. They also struggle to segment users properly, leading to generalized approaches that don't work across diverse user bases.
 
 **Objective:** Measure the effectiveness of user engagement campaigns.
 
 **Potential Impact:** Improves retention and engagement by testing strategy or product feature impact, identifying ones that work best for different user segments.
-- **Techniques to consider:** Uplift modeling, A/B Testing (RCTs), Difference-in-Differences (DiD), Regression Discontinuity Design (RDD), Instrumental Variables (IV)
-- **Considerations** What is the timeline to seeing long-term impact and to decision-making? How does this experiment fit into product feature launch timeline? What is the unit of treatment? What is the scale of the experiment (how much resources do we have?)? Is randomization feasible within this timeframe (-> RCT)? If not possible, can we find a control group (-> DiD)? Or is there a somewhat "arbitraty" cuttoff or threshold in treatment assignment (i.e., income, geo-administrative boundaries, cell-tower) (->RDD) ? If not, can we measure the confounding variables (-> IV)?
-- **Dataset:** [Online Retail Dataset (UCI)](https://archive.ics.uci.edu/ml/datasets/online+retail)
+- **Techniques to consider:** Uplift modeling, A/B Testing (RCTs), switch back experiment, cluster matching w Difference-in-Differences (DiD), Regression Discontinuity Design (RDD), Instrumental Variables (IV)
+- **Considerations** What is the timeline to seeing long-term impact and to decision-making? How does this experiment fit into product feature launch timeline? What is the unit of treatment and relevant user segments and clustering? What is the scale of the experiment (how much resources do we have?)? Is randomization feasible within this timeframe (-> RCT)? If not possible, can we find a control group (-> DiD)? Or is there a somewhat "arbitraty" cuttoff or threshold in treatment assignment (i.e., income, geo-administrative boundaries, cell-tower) (->RDD) ? If not, can we measure the confounding variables (-> IV)?
 
+
+- **Dataset:** [Online Retail Dataset (UCI)](https://archive.ics.uci.edu/ml/datasets/online+retail)
+- similar contexts: promotion experiments for on-demand delivery apps
 ---
 
-### **2️⃣ Advertising Effectiveness & ROI Optimization**
+### **2️⃣ Advertising Effectiveness & ROI Optimization** (or promotions)??
 **Problem:** In today's highly competitive market, companies often waste significant portions of their advertising budgets without knowing which campaigns or channels are truly driving revenue. Many companies rely on superficial metrics, like click-through rates, without evaluating the deeper, more direct impacts on sales or long-term brand value. This leads to inefficient ad spend allocation and missed opportunities for optimization.
 
 **Objective:** Optimize advertising spend and measure ad impact.
 
 **Potential Impact:** Improves ROI by identifying high-performing campaigns and reducing ineffective ad spend.
-- **Techniques:** Geo-based experiments, Regression Discontinuity Design (RDD), Synthetic Control Method (SCM)
+- **Techniques:** Geo-based /clister based experiments, Regression Discontinuity Design (RDD), Synthetic Control Method (SCM)
 - **Dataset:** [Facebook Ad Campaign Performance (Kaggle)](https://www.kaggle.com/datasets/sriraheel/facebook-ad-campaign-performance)
 
 ---
@@ -81,7 +88,7 @@ With most of the above approaches, I can use Uplift Modeling to predict incremen
 **Objective:** Test pricing strategies to optimize revenue while maintaining retention.
 
 **Potential Impact:** Enhances pricing strategies by identifying customer price sensitivity and willingness to pay.
-- **Techniques:** A/B Testing, Synthetic Control Method (SCM), Regression Discontinuity Design (RDD)
+- **Techniques:** demand elascitity modeling, A/B Testing, Synthetic Control Method (SCM), Regression Discontinuity Design (RDD)
 - **Dataset:** [Instacart Market Basket Analysis (Kaggle)](https://www.kaggle.com/datasets/c/instacart/instacart-market-basket-analysis)
 
 ---
