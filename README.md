@@ -42,13 +42,13 @@ With most of the above approaches, I can use Uplift Modeling to predict incremen
 
 ## **Projects** (Will upload soon)
 
-### **1️⃣ User Growth & Engagement Optimization** (aquisition and retensio)
+### **1️⃣ User Growth & Engagement Optimization** (aquisition and retension)
 **Problem:** Companies today face significant challenges in accurately measuring the impact of user engagement strategies. Without clear insights into what truly drives user growth, businesses often implement ineffective or even counterproductive engagement tactics. They also struggle to segment users properly, leading to generalized approaches that don't work across diverse user bases.
 
 **Objective:** Measure the effectiveness of user engagement campaigns.
 
 **Potential Impact:** Improves retention and engagement by testing strategy or product feature impact, identifying ones that work best for different user segments.
-- **Techniques to consider:** Uplift modeling, A/B Testing (RCTs), switch back experiment, cluster matching w Difference-in-Differences (DiD), Regression Discontinuity Design (RDD), Instrumental Variables (IV)
+- **Techniques to consider:** A/B Testing (RCTs), Switch back experiment, Cluster matching w Difference-in-Differences (DiD), Subgroup analysis, Uplift modeling
 - **Considerations** What is the timeline to seeing long-term impact and to decision-making? How does this experiment fit into product feature launch timeline? What is the unit of treatment and relevant user segments and clustering? What is the scale of the experiment (how much resources do we have?)? Do we have control over feature administration within this timeframe (-> RCT, Switchback)? If not possible, can we find a control group (-> DiD)? Or is there a somewhat "arbitraty" cuttoff or threshold in treatment assignment (i.e., income, geo-administrative boundaries, cell-tower) (->RDD) ? If not, can we measure the confounding variables (-> IV)?
 
 ---
