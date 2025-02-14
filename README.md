@@ -33,7 +33,11 @@ With all the above approaches, we can calculate:
 
 A even more flexible approach is Uplift Modeling. With Uplift Modeling, we can answer *"Which specific users should receive the new algorithm to maximize engagment (CTR or bookings)?" "Which specific users should receive the new checkout flow to maximize conversions?"*
 
-With most of the above approaches, I can use Uplift Modeling to predict incremental impacts (impact of the treatment on each individual) and identify user segments. Uplift Modeling finds the individuals who are most likely to respond positively to a treatment (new product features, campaign or product). We can use uplift modeling to 1) increase resource efficiency by only targeting users with the highest potential impact; 2) increase resource efficieny by NOT targeting users who would have undertook the desired behavior anyways (i.e., users who will subscribe/ puchase anyways without recieving an email campaign or free trial extension offer; 3) prevent negative impacts from individuals who will potentially respond negatively to our intervention (i.e., push notifications or email campaigns could remind people to unsubscribe leading to churn); 4) build better personalized experiences for users, prioritizing the right features to the right users (bundle features to only relevent user segments who will have positive responses and NOT releasing features to users who will react negatively to the feature)
+With most of the above approaches, I can use Uplift Modeling to predict incremental impacts (impact of the treatment on each individual) and identify user segments. Uplift Modeling finds the individuals who are most likely to respond positively to a treatment (new product features, campaign or product). We can use uplift modeling to 
+1. Increase resource efficiency by only targeting users with the highest potential impact;
+2. Increase resource efficieny by NOT targeting users who would have undertook the desired behavior anyways (i.e., users who will subscribe/ puchase anyways without recieving an email campaign or free trial extension offer;
+3. Prevent negative impacts from individuals who will potentially respond negatively to our intervention (i.e., push notifications or email campaigns could remind people to unsubscribe leading to churn);
+4. Build better personalized experiences for users, prioritizing the right features to the right users (bundle features to only relevent user segments who will have positive responses and NOT releasing features to users who will react negatively to the feature)
 
 
 ## **Projects** (Will upload soon)
@@ -50,19 +54,19 @@ With most of the above approaches, I can use Uplift Modeling to predict incremen
 ---
 
 ### **2️⃣ Advertising Effectiveness & ROI Optimization**
-**Problem:** In today's highly competitive market, companies often waste significant portions of their advertising budgets without knowing which campaigns or channels are truly driving revenue. Many companies rely on superficial metrics, like click-through rates, without evaluating the deeper, more direct impacts on sales or long-term brand value. This leads to inefficient ad spend allocation and missed opportunities for optimization.
+**Problem:** In today's highly competitive market, companies often waste significant portions of their advertising budgets without knowing which campaigns or channels are truly driving revenue. Many companies rely on superficial metrics, like click-through rates, without evaluating the deeper, more direct impacts on sales or long-term brand value. This leads to inefficient ad spend allocation and missed opportunities for optimization. This approach is unsustainable as companies grow.
 
 **Objective:** Optimize advertising spend and measure ad impact.
 
-**Potential Impact:** Improves ROI by identifying high-performing campaigns and reducing ineffective ad spend.
-- **Techniques:** Geo-/network/cluster-based experiments, Regression Discontinuity Design (RDD), Synthetic Control Method (SCM)
+**Potential Impact:** Improves ROI by identifying high-performing campaigns, personilizing campaigns, and reducing ineffective ad spend.
+- **Techniques to consider:** Unsupervised cluster analysis (Machine Learning), Geo-/network/cluster-based experiments, Synthetic control 
 
 ---
 
 ### **3️⃣ Policy & Trust & Safety Impact Analysis**
-**Problem:** Policy changes, especially in areas like user safety and fraud prevention, can have unintended consequences that impact user trust or lead to increases in fraudulent activity. Companies often implement policy changes in reaction to emerging issues but lack the ability to evaluate their true effectiveness, sometimes inadvertently making problems worse or creating new issues.
+**Problem:** Policy changes, especially in areas like user safety and fraud prevention, can have unintended consequences that impact user trust or lead to increases in fraudulent activity. Companies often implement policy changes to their whole network in reaction to emerging issues but lack the ability to evaluate their true effectiveness, sometimes inadvertently making problems worse or creating new issues.
 
 **Objective:** Measure the impact of policy changes on fraud and user trust.
 
 **Potential Impact:** Helps companies refine policies to enhance safety while minimizing unintended negative effects.
-- **Techniques:** Difference-in-Differences (DiD), Instrumental Variables (IV), Regression Discontinuity Design (RDD)
+- **Techniques to consider:** Regression Discontinuity Design (RDD), Synthetic control 
