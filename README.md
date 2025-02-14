@@ -69,4 +69,8 @@ With most of the above approaches, I can use Uplift Modeling to predict incremen
 **Objective:** Measure the impact of policy changes on fraud and user trust.
 
 **Potential Impact:** Helps companies refine policies to enhance safety while minimizing unintended negative effects.
-- **Techniques to consider:** Regression Discontinuity Design (RDD), Synthetic control 
+- **Techniques to consider:** Regression Discontinuity Design (RDD), Synthetic control
+
+  ---
+
+### **4️⃣ Baysian Updating application**
