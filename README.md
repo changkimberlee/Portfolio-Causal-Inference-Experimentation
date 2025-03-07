@@ -9,7 +9,9 @@ Here are some questions I ask when choosing causal inference designs:
 - What is the timeline to seeing short-, mid- and long-term impact and to decision-making?
 - How does this experiment fit into product/ feature launch/ other cross-functional goals' timeline?
 - How much control do we have on how the treatment (product/ feature/ campaign) will be launched?
-- What is the unit of treatment? Individual user is usual for Growth and Digital Ads teams for most products where aim is engagement and/or ROI. Geo-based units is usual for Marketplace where the aim is supply-demand balancing. For Policy and Trust & Safety, the unit of treatment is often larger to minicipalities, states, countries, region (Whether the policy is external or internal).
+- What is the unit of treatment?
+
+*Individual user is usual for Growth and Digital Ads teams for most products where aim is engagement and/or ROI. Geo-based units is usual for Marketplace where the aim is supply-demand balancing. For Policy and Trust & Safety, the unit of treatment is often larger to minicipalities, states, countries, region (Whether the policy is external or internal).*
 - What is the scale of the experiment (how much time, monetary and engineering resources do we have?)? Or is this a natural experiment (i.e., external policies)?
   
 *Answering the above questions requires consultations/ co-creation with cross-functional teams- Soft skills and experience. My consulting experience and communication skills I've developed through a wide variety of projects enabled me to come up with research design and timeline that matched vary different stateholders' short and long-term needs.*
