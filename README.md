@@ -44,10 +44,16 @@ With most of the above approaches, I can use Uplift Modeling to predict incremen
 
 ## **Projects** (Will upload soon)
 
-### **1️⃣ User Growth & Engagement Optimization** (aquisition and retension)
-**Problem:** Companies today face significant challenges in accurately measuring the impact of user engagement strategies. Without clear insights into what truly drives user growth, businesses often implement ineffective or even counterproductive engagement tactics. They also struggle to segment users properly, leading to generalized approaches that don't work across diverse user bases.
+### **1️⃣ User Growth & Engagement Optimization** (Aquisition and Retension)
+**Problem:** Companies today face significant challenges in accurately measuring the impact of user acquisition and engagement strategies. Without clear insights into what truly drives user growth, businesses often implement ineffective or even counterproductive engagement tactics. They may also fail to segment users properly, leading to generalized approaches that don't work across diverse user bases. Inefficient Spending & High Customer Acquisition Cost, Poor Targeting & Personalization, Ad/Promotions Fatigue
+Attribution Problems:
+Difficulty in accurately tracking which marketing channels are driving conversions.
+Challenges in understanding the customer journey across multiple touchpoints.
 
-**Objective:** Measure the effectiveness of user engagement campaigns.
+**How Experimentation Can Help**
+*challanges* 
+
+**Project Objective:** Effective user segmentation, and evaluate the effectiveness of user engagement campaigns (such as ads, messaging or promotions).  
 
 **Potential Impact:** Improves retention and engagement by testing strategy or product feature impact, identifying ones that work best for different user segments.
 - **Techniques to consider:** A/B Testing (RCTs), Switch back experiment, Cluster matching w Difference-in-Differences (DiD), Subgroup analysis, Uplift modeling
